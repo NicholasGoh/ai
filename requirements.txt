@@ -1,0 +1,10 @@
+jupyter
+ipykernel
+torchinfo
+torch
+pandas
+scikit-learn
+matplotlib
+scipy
+tqdm
+jupytext
