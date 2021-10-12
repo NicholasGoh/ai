@@ -28,4 +28,10 @@ c.ContentsManager.default_jupytext_formats = ".ipynb,.Rmd"
 
 Follow screenshot [here](https://github.com/mwouts/jupytext/blob/main/docs/install.md#jupytext-menu-in-jupyter-notebook) and link markdown
 
-Now when you save, a `.md` file will be generated. Commit that instead of `.ipynb`. `.gitignore` automatically prevents commiting `.ipynb` for now.
+Now when you save a `.ipynb`, a `.md` file will be generated. Commit that instead of `.ipynb`. `.gitignore` automatically prevents commiting `.ipynb` for now.
+
+To convert a `.md` file to `.ipynb` so you can edit, use:
+
+```
+jupytext --to ipynb assignment2.md
+```
