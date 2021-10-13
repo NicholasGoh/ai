@@ -7,4 +7,4 @@ scikit-learn
 matplotlib
 scipy
 tqdm
-jupytext
+nbdime
